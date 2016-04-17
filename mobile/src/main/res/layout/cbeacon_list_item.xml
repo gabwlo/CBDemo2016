@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/cbeacon_uuid_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Font_Primary_Light_Bold"
+            android:padding="3dp"
+            android:text="@string/beacon_uuid"/>
+
+        <TextView
+            android:id="@+id/cbeacon_uuid_value"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/cbeacon_uuid_label"
+            android:layout_alignBaseline="@id/cbeacon_uuid_label"
+            style="@style/Font_Primary_Light"
+            android:padding="3dp"
+            android:textSize="9sp"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/cbeacon_uuid_major_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            style="@style/Font_Primary_Light_Bold"
+            android:text="@string/beacon_major"/>
+
+        <TextView
+            android:id="@+id/cbeacon_major_value"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/cbeacon_uuid_major_label"
+            style="@style/Font_Primary_Light"
+            android:padding="3dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/cbeacon_uuid_minor_label"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/cbeacon_major_value"
+            android:layout_height="wrap_content"
+            style="@style/Font_Primary_Light_Bold"
+            android:padding="3dp"
+            android:text="@string/beacon_minor"/>
+
+        <TextView
+            android:id="@+id/cbeacon_minor_value"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/cbeacon_uuid_minor_label"
+            style="@style/Font_Primary_Light"
+            android:padding="3dp"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/cbeacon_accuracy_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Font_Primary_Light_Bold"
+            android:padding="3dp"
+            android:text="@string/beacon_accuracy"/>
+
+        <TextView
+            android:id="@+id/cbeacon_accuracy_value"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/cbeacon_accuracy_label"
+            style="@style/Font_Primary_Light"
+            android:padding="3dp"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/cbeacon_distance_label"
+            android:layout_width="wrap_content"
+            android:padding="3dp"
+            android:layout_height="wrap_content"
+            style="@style/Font_Primary_Light_Bold"
+            android:text="@string/beacon_distance"/>
+
+        <TextView
+            android:id="@+id/cbeacon_distance_value"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/cbeacon_distance_label"
+            style="@style/Font_Primary_Light"
+            android:padding="3dp"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/cbeacon_rssi_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            style="@style/Font_Primary_Light_Bold"
+            android:text="@string/beacon_rssi"/>
+
+        <TextView
+            android:id="@+id/cbeacon_rssi_value"
+            android:layout_width="wrap_content"
+            android:padding="3dp"
+            android:layout_toRightOf="@id/cbeacon_rssi_label"
+            style="@style/Font_Primary_Light"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

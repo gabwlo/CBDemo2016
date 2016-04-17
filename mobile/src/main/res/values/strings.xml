@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CBDemo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="beacon_uuid">UUID</string>
+    <string name="beacon_major">Major</string>
+    <string name="beacon_minor">Minor</string>
+    <string name="beacon_accuracy">Accuracy</string>
+    <string name="beacon_distance">Distance</string>
+    <string name="beacon_rssi">Rssi</string>
+
+
+
+</resources>
